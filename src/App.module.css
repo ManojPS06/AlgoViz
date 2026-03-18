@@ -1,0 +1,53 @@
+.app {
+  min-height: 100vh;
+  background: #0f172a;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  height: 56px;
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: #60a5fa;
+  letter-spacing: -0.5px;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  background: #1e293b;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.tab,
+.activeTab {
+  padding: 6px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.15s;
+}
+
+.tab {
+  background: transparent;
+  color: #94a3b8;
+}
+
+.activeTab {
+  background: #2563eb;
+  color: #fff;
+}

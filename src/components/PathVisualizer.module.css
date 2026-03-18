@@ -1,0 +1,93 @@
+.container { padding: 1.5rem 2rem; }
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  background: #1e293b;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #334155;
+}
+
+.algoRow { display: flex; gap: 6px; }
+
+.algoBtn, .activeAlgo {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 700;
+  transition: all 0.15s;
+}
+.algoBtn { background: #334155; color: #94a3b8; }
+.activeAlgo { background: #2563eb; color: #fff; }
+
+.hint { font-size: 0.8rem; color: #64748b; }
+
+.clearBtn, .resetBtn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #334155;
+  color: #e2e8f0;
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.runBtn, .stopBtn {
+  padding: 6px 22px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #fff;
+}
+.runBtn { background: #10b981; }
+.stopBtn { background: #ef4444; }
+
+.pathFound { font-size: 0.82rem; color: #10b981; font-weight: 600; }
+.noPath { font-size: 0.82rem; color: #ef4444; font-weight: 600; }
+
+.legend {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: #94a3b8;
+}
+
+.dot { width: 10px; height: 10px; border-radius: 2px; }
+
+.grid {
+  display: inline-grid;
+  gap: 1px;
+  background: #0f172a;
+  border-radius: 10px;
+  padding: 6px;
+  border: 1px solid #334155;
+  user-select: none;
+  cursor: crosshair;
+}
+
+.cell {
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  border: 1px solid #0f172a;
+  transition: background 0.1s ease;
+}
+
+.cell:hover { opacity: 0.8; }
