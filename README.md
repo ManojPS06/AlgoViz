@@ -63,7 +63,3 @@ algo-viz/
 ├── index.html
 └── vite.config.js
 ```
-
-## Motivation
-
-Built while studying Design & Analysis of Algorithms (DAA) at PES University. Implementing and animating these algorithms from scratch helped solidify understanding of time complexity, recursion, graph traversal, and heuristic search.
